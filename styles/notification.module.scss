@@ -1,0 +1,58 @@
+@import "./colors.module";
+
+.notification {
+  background-color: #fff;
+  border-color: #ededed;
+  border-radius: 4px;
+
+  .successTitle,
+  .errorTitle,
+  .warningTitle,
+  .infoTitle {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 1.4;
+    margin-bottom: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(33, 37, 41);
+  }
+  .successMessage,
+  .errorMessage,
+  .warningMessage,
+  .infoMessage {
+    font-size: 14px;
+    text-decoration: none;
+    color: rgb(134, 142, 150);
+    line-height: 1.4;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .successBody {
+    padding-left: 8px;
+    border-radius: 4px;
+  }
+  .errorBody {
+    padding-left: 8px;
+    border-radius: 4px;
+  }
+  .warningBody {
+    padding-left: 8px;
+    border-radius: 4px;
+  }
+  .infoBody {
+    padding-left: 8px;
+    border-radius: 4px;
+  }
+}
+.notification::before {
+  display: block;
+  position: absolute;
+  width: 6px;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  border-radius: 4px;
+  // background-color: rgb(34, 139, 230);
+}

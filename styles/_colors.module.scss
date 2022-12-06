@@ -1,0 +1,28 @@
+// Primary colors
+$primary_1: #000000;
+$primary_2: #005ef3;
+$primary_3: #79f2ec;
+
+//secondary colors
+$secondary_1: #f2e2d2;
+$secondary_2: #fdf7fa;
+$secondary_3: #0E181A;
+
+//gradients colors
+$gradient_1: linear-gradient(60deg, #79f2ec, #005ef3);
+$gradient_2: linear-gradient(60deg, #000000, #005ef3);
+$gradient_3: linear-gradient(60deg, #fdf7fa, #005ef3);
+$gradient_4: linear-gradient(60deg, #f2e2d2, #79f2ec);
+
+:export {
+  PRIMARY_1: $primary_1;
+  PRIMARY_2: $primary_2;
+  PRIMARY_3: $primary_3;
+  SECONDARY_1: $secondary_1;
+  SECONDARY_2: $secondary_2;
+  SECONDARY_3: $secondary_3;
+  GRADIENT_1: $gradient_1;
+  GRADIENT_2: $gradient_2;
+  GRADIENT_3: $gradient_3;
+  GRADIENT_4: $gradient_4;
+}

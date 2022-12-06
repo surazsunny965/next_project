@@ -1,0 +1,52 @@
+@import "./colors.module";
+
+//input box
+.inputBox {
+  background-color: $primary_1;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+.inputBox:focus-within {
+  color: white;
+  border: 1px solid $primary_2;
+}
+
+.inputBoxInner {
+  color: white
+}
+
+//button
+.button {
+  background-color: $primary_2;
+  color: white;
+  border: 1px solid $primary_2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+//checkbox
+.checkbox {
+  color: white;
+  border: 1px solid $primary_2;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 4px;
+}
+.checkbox:checked{
+  background-color: $primary_2;
+  color: white;
+  border: 1px solid $primary_2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkboxLabel{
+  color: white;
+  font-size: 12px;
+}

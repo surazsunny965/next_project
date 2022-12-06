@@ -1,0 +1,55 @@
+@import "./colors.module";
+
+.loginpageBg{
+    height:100vh;
+    //background image with gradient top to bottom color 
+    //radial gradient with green color on bottom corners and white on top corners
+    // background-image: radial-gradient(circle at bottom left, $primary_1, $primary_3 );
+    background-image: url("../public/assets/images/login_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .centerLoginCard{
+        padding-top: 80px;
+        padding-left: 24px;
+        padding-right: 24px;
+        display: flex;
+        flex-direction: column;
+    .loginCard{
+        background-color: $secondary_3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 32px;
+        border-radius: 16px;
+        .signInAccountText{
+            color: white;
+            font-weight: 600;
+            font-size: 24px;
+          }
+          .accountDescriptionText{
+            color: rgb(76, 71, 71);
+            font-size: 12px;
+          }
+        }
+        .forgotPasswordLine{
+          color: $primary_2;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          font-size: 12px;
+          cursor: pointer;
+        }
+        .noAccountText{
+          color: white;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          font-size: 12px;
+        }
+        .loginText{
+          color: $primary_2;
+          text-decoration: underline;
+          cursor: pointer;
+        }
+}
+}

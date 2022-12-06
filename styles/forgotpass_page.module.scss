@@ -1,0 +1,32 @@
+@import "./colors.module";
+
+.fpassbg{
+    height:100vh;
+    background-image: url("../public/assets/images/login_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    .centerPageCard{
+        padding-top: 80px;
+        padding-left: 24px;
+        padding-right: 24px;
+        display: flex;
+        flex-direction: column;
+    .forgotPassCard{
+        background-color: $secondary_3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 40px 32px;
+        border-radius: 16px;
+        .heading{
+            color: white;
+            font-weight: 600;
+            font-size: 24px;
+          }
+          .description{
+            color: rgb(76, 71, 71);
+            font-size: 12px;
+          }
+        }
+}
+}
